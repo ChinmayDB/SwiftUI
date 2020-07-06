@@ -28,6 +28,9 @@ struct RGBBullsEye: View {
     
     var body: some View {
         VStack {
+            Image("onePieceLogo")
+                .resizable()
+                .scaledToFit()
             HStack {
                 // Target color block
                 VStack {

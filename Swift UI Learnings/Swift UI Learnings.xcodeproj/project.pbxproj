@@ -14,6 +14,7 @@
 		53010C9324A9C3F2006A7DA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53010C9224A9C3F2006A7DA6 /* Preview Assets.xcassets */; };
 		53010C9624A9C3F2006A7DA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53010C9424A9C3F2006A7DA6 /* LaunchScreen.storyboard */; };
 		53010CA124A9D96D006A7DA6 /* RGBBullsEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53010CA024A9D96D006A7DA6 /* RGBBullsEye.swift */; };
+		531D88BC24B2DF3B00550398 /* ImageChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531D88BB24B2DF3B00550398 /* ImageChallengeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		53010C9524A9C3F2006A7DA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53010C9724A9C3F2006A7DA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53010CA024A9D96D006A7DA6 /* RGBBullsEye.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBBullsEye.swift; sourceTree = "<group>"; };
+		531D88BB24B2DF3B00550398 /* ImageChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageChallengeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				53010C8D24A9C3EF006A7DA6 /* ContentView.swift */,
 				53010CA024A9D96D006A7DA6 /* RGBBullsEye.swift */,
+				531D88BB24B2DF3B00550398 /* ImageChallengeView.swift */,
 			);
 			path = ContentViews;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53010C8A24A9C3EF006A7DA6 /* AppDelegate.swift in Sources */,
+				531D88BC24B2DF3B00550398 /* ImageChallengeView.swift in Sources */,
 				53010C8C24A9C3EF006A7DA6 /* SceneDelegate.swift in Sources */,
 				53010CA124A9D96D006A7DA6 /* RGBBullsEye.swift in Sources */,
 				53010C8E24A9C3EF006A7DA6 /* ContentView.swift in Sources */,
