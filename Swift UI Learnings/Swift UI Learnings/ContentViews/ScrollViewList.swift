@@ -14,8 +14,9 @@ struct ScrollViewList: View {
                     CellRow(listModel: listModel)
                 }
             }
+            .navigationBarTitle(Text("List View"))
         }
-        .navigationBarTitle(Text("List View"))
+        
     }
 }
 
