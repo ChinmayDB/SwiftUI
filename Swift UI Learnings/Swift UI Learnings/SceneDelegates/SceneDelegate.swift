@@ -19,12 +19,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         // Create the SwiftUI view that provides the window contents.
 //        let contentView = RGBBullsEye(rGuess: RGBBullsEye.rgbGuess, gGuess: RGBBullsEye.rgbGuess, bGuess: RGBBullsEye.rgbGuess)
-        let scrollViewList = ScrollViewList()
+//        let listView = ListView()
+        let contactsListView = ContactsListView()
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = UIHostingController(rootView: scrollViewList)
+            window.rootViewController = UIHostingController(rootView: contactsListView)
             self.window = window
             window.makeKeyAndVisible()
         }

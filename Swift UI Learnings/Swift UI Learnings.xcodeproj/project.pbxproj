@@ -19,6 +19,10 @@
 		538BCDF524C583B000D26CEC /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538BCDF424C583B000D26CEC /* ListModel.swift */; };
 		538BCDF724C5855800D26CEC /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538BCDF624C5855800D26CEC /* ListView.swift */; };
 		538BCDF924C5887400D26CEC /* ScrollViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538BCDF824C5887400D26CEC /* ScrollViewList.swift */; };
+		538BCDFB24C5A04600D26CEC /* ContactInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538BCDFA24C5A04600D26CEC /* ContactInfo.swift */; };
+		538BCDFF24C5A45E00D26CEC /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538BCDFE24C5A45E00D26CEC /* ContactCell.swift */; };
+		538BCE0124C5AABC00D26CEC /* ContactsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538BCE0024C5AABC00D26CEC /* ContactsListView.swift */; };
+		539F260D24C5C42F0052BD87 /* ScrollingContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539F260C24C5C42F0052BD87 /* ScrollingContactList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		538BCDF424C583B000D26CEC /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
 		538BCDF624C5855800D26CEC /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		538BCDF824C5887400D26CEC /* ScrollViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewList.swift; sourceTree = "<group>"; };
+		538BCDFA24C5A04600D26CEC /* ContactInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfo.swift; sourceTree = "<group>"; };
+		538BCDFE24C5A45E00D26CEC /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		538BCE0024C5AABC00D26CEC /* ContactsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsListView.swift; sourceTree = "<group>"; };
+		539F260C24C5C42F0052BD87 /* ScrollingContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingContactList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +76,7 @@
 		53010C8824A9C3EF006A7DA6 /* Swift UI Learnings */ = {
 			isa = PBXGroup;
 			children = (
+				538BCDFD24C5A44900D26CEC /* Cells */,
 				538BCDF324C5839000D26CEC /* Model classes */,
 				53010C9F24A9D93F006A7DA6 /* ContentViews */,
 				53010C9E24A9D92B006A7DA6 /* SceneDelegates */,
@@ -110,9 +119,10 @@
 				53010C8D24A9C3EF006A7DA6 /* ContentView.swift */,
 				53010CA024A9D96D006A7DA6 /* RGBBullsEye.swift */,
 				531D88BB24B2DF3B00550398 /* ImageChallengeView.swift */,
-				538BCDF124C5702800D26CEC /* CellRow.swift */,
 				538BCDF624C5855800D26CEC /* ListView.swift */,
 				538BCDF824C5887400D26CEC /* ScrollViewList.swift */,
+				538BCE0024C5AABC00D26CEC /* ContactsListView.swift */,
+				539F260C24C5C42F0052BD87 /* ScrollingContactList.swift */,
 			);
 			path = ContentViews;
 			sourceTree = "<group>";
@@ -121,8 +131,18 @@
 			isa = PBXGroup;
 			children = (
 				538BCDF424C583B000D26CEC /* ListModel.swift */,
+				538BCDFA24C5A04600D26CEC /* ContactInfo.swift */,
 			);
 			path = "Model classes";
+			sourceTree = "<group>";
+		};
+		538BCDFD24C5A44900D26CEC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				538BCDF124C5702800D26CEC /* CellRow.swift */,
+				538BCDFE24C5A45E00D26CEC /* ContactCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,10 +217,14 @@
 			files = (
 				538BCDF924C5887400D26CEC /* ScrollViewList.swift in Sources */,
 				538BCDF724C5855800D26CEC /* ListView.swift in Sources */,
+				539F260D24C5C42F0052BD87 /* ScrollingContactList.swift in Sources */,
 				53010C8A24A9C3EF006A7DA6 /* AppDelegate.swift in Sources */,
 				531D88BC24B2DF3B00550398 /* ImageChallengeView.swift in Sources */,
 				53010C8C24A9C3EF006A7DA6 /* SceneDelegate.swift in Sources */,
 				53010CA124A9D96D006A7DA6 /* RGBBullsEye.swift in Sources */,
+				538BCDFF24C5A45E00D26CEC /* ContactCell.swift in Sources */,
+				538BCE0124C5AABC00D26CEC /* ContactsListView.swift in Sources */,
+				538BCDFB24C5A04600D26CEC /* ContactInfo.swift in Sources */,
 				538BCDF524C583B000D26CEC /* ListModel.swift in Sources */,
 				538BCDF224C5702800D26CEC /* CellRow.swift in Sources */,
 				53010C8E24A9C3EF006A7DA6 /* ContentView.swift in Sources */,
